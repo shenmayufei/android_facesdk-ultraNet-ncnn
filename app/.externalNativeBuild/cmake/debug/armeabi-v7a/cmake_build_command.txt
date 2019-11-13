@@ -1,0 +1,17 @@
+Executable : E:\Android\sdk\android-sdk-windows\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+-HE:\download\android_facesdk-ultraNet\app
+-BE:\download\android_facesdk-ultraNet\app\.externalNativeBuild\cmake\debug\armeabi-v7a
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_PLATFORM=android-19
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\download\android_facesdk-ultraNet\app\build\intermediates\cmake\debug\obj\armeabi-v7a
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=E:\Android\sdk\android-sdk-windows\ndk-bundle
+-DCMAKE_C_FLAGS=-fopenmp -O2 -fvisibility=hidden -fomit-frame-pointer -fstrict-aliasing -ffunction-sections -fdata-sections -ffast-math 
+-DCMAKE_CXX_FLAGS=-fopenmp -O2 -fvisibility=hidden -fvisibility-inlines-hidden -fomit-frame-pointer -fstrict-aliasing -ffunction-sections -fdata-sections -ffast-math  -std=c++11 -frtti -fexceptions
+-DCMAKE_TOOLCHAIN_FILE=E:\Android\sdk\android-sdk-windows\ndk-bundle\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=E:\Android\sdk\android-sdk-windows\cmake\3.6.4111459\bin\ninja.exe
+-GAndroid Gradle - Ninja
+-DANDROID_TOOLCHAIN=clang 
+jvmArgs : 
+
